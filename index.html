@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll Now</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid"> 
+        <a class="navbar-brand" href="#">
+            <img src="OBMC LOGO 25.webp" alt="Logo" height="100px" width="80px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+ 
+    <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html" target="_self">Enroll Now!</a></li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+        </form>
+    </div>
+</nav>
+
+<h1 style="text-align: left;"><b>OBMC Student Enrollment Form</b></h1>
+<br>
+
+<div class="horizontal-layout bg-light p-3 mb-3 rounded">
+<form>
+    <h2>Student Information</h2>
+        <div class="row mb-4">
+         <label for="inputfname" class="col-sm-2 col-form-label">First Name</label>
+            <div class="col-sm-10">
+                <input type="fname" class="form-control" id="inputfname" placeholder="First Name">
+            </div>
+         <label for="inputlname" class="col-sm-2 col-form-label">Last Name</label>
+            <div class="col-sm-10">
+                <input type="lname" class="form-control" id="inputlname" placeholder="Last Name">
+            </div>
+        </div>
+        
+        <div class="row mb-12">
+         <label for="inputGen" class="col-sm-2 col-form-label">Gender</label>
+          <div class="col-sm-10">
+            <select name="inputGen" id="Gender" placeholder="Select..">
+                <option value="F">Female</option>
+                <option value="M">Male</option> 
+            </select>
+          </div>
+        </div>
+     
+   <div class="row mb-3">
+      <label for="inputbd" class="col-sm-2 col-form-label">Birthdate</label>
+         <div class="col-sm-10">
+             <input type="bd" class="form-control" id="inputbd" placeholder="MM/DD/YY">
+         </div>
+   </div>
+
+   <h2>Contact Details</h2>  
+
+      <div class="row mb-3">
+      <label for="inputEmail" class="col-sm-2 col-form-label">Email Address</label>
+         <div class="col-sm-10">
+             <input type="email" class="form-control" id="inputEmail" placeholder="student@example.com">
+         </div>
+      </div>
+
+        <div class="row mb-3">
+        <label for="inputContact" class="col-sm-2 col-form-label">Email Address</label>
+            <div class="col-sm-10">
+                <input type="Contact" class="form-control" id="inputContact" placeholder="0912-369-6761">
+            </div>
+         </div>
+
+   <h2>Other Information</h2>
+        <p>Mode of Learning</p>
+
+    <div class="col-auto">
+        <input type="radio" id="ON" name="mol" value="ON">
+        <label for="ON">Online</label><br>
+   </div>
+
+    <div class="col-auto">
+        <input type="radio" id="F2F" name="mol" value="F2F">
+        <label for="F2F">Face to Face</label><br>
+   </div><br>   
+		
+
+    <div class="col-auto">
+     <div class="form-check">
+         <input class="form-check-input" type="checkbox" id="checkRemember">
+          <label class="form-check-label" for="checkRemember">I confirm that the information provided is true and complete</label>
+     </div>
+   </div>
+
+    <div class="col-auto">
+      <button type="submit" class="btn-primary">Submit Enrollment</button>
+    </div>
+</div> <br>
+
+    <footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
+        2025 Copyright Student Enrollment Form | Alexa Agnote 9-Sapphire
+    </footer>
+</body>
+</html>
